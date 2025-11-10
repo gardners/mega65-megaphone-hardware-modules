@@ -1,0 +1,94 @@
+name: Export JLCPCB Production Files
+
+on:
+  push:
+    branches:
+      - main    
+    tags:
+      - "v*.*.*"
+  workflow_dispatch:  # allows manual triggering
+
+permissions:
+  contents: write  # Allow pushing and creating releases
+
+jobs:
+  build:
+    name: Generate fabrication and assembly files
+    runs-on: ubuntu-22.04
+    container: ghcr.io/inti-cmnb/kicad9_auto_full:dev
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # needed for pushing back changes
+
+      - name: Check KiCad version
+        run: kicad-cli --version
+
+      - name: Detect changed KiCad modules
+        id: detect
+        shell: bash
+        run: |
+          echo "🔍 Detecting changed KiCad projects..."
+          CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} || true)
+
+          MODULES=""
+          for path in $CHANGED_FILES; do
+            if [[ "$path" == modules/*/*.kicad_* ]]; then
+              module=$(echo "$path" | cut -d'/' -f2)
+              MODULES="$MODULES $module"
+            fi
+          done
+
+          # Remove duplicates
+          MODULES=$(echo "$MODULES" | tr ' ' '\n' | sort -u | xargs)
+
+          if [ -z "$MODULES" ]; then
+            echo "⚠️ No KiCad modules changed."
+          else
+            echo "✅ Changed modules: $MODULES"
+          fi
+
+          echo "modules=$MODULES" >> $GITHUB_OUTPUT
+
+      - name: Run KiBot for changed modules
+        if: steps.detect.outputs.modules != ''
+        run: |
+          for module in ${{ steps.detect.outputs.modules }}; do
+            echo "▶ Running KiBot for module: $module ..."
+            mkdir -p "production/$module"
+            kibot -c modules/output.kibot.yaml \
+              -b "modules/$module/$module.kicad_pcb" \
+              -e "modules/$module/$module.kicad_sch" \
+              -d "production/$module" \
+              --verbose || exit 1
+          done
+
+      - name: Commit generated files to production folder
+        if: steps.detect.outputs.modules != '' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if [ -n "$(git status --porcelain production)" ]; then
+            git add production/
+            git commit -m "Update production files [skip ci]"
+            git push origin main
+          else
+            echo "No changes to commit."
+          fi
+
+      - name: Create GitHub Release
+        if: steps.detect.outputs.modules != ''
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: "JLCPCB-${{ github.run_number }}"
+          name: "JLCPCB Export #${{ github.run_number }}"
+          body: "Automatically generated fabrication and assembly files for changed KiCad modules."
+          files: |
+            production/**/Fabrication/JLCPCB/*.zip
+            production/**/Fabrication/PDFs/*.pdf
+            production/**/Fabrication/ibom/*.html
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
