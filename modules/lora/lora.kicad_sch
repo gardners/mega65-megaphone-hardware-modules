@@ -1241,7 +1241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 120.65 62.23 0)
 			(effects
 				(font
@@ -1571,7 +1571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 133.35 62.23 0)
 			(effects
 				(font
@@ -1639,7 +1639,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.87 53.34 0)
 			(effects
 				(font
@@ -1709,7 +1709,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RF_Module:HOPERF_RFM9XW_SMD"
 			(at -1.27 19.05 0)
 			(effects
 				(font
@@ -1885,7 +1885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127 62.23 0)
 			(effects
 				(font
@@ -2020,7 +2020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 107.95 57.15 0)
 			(effects
 				(font
