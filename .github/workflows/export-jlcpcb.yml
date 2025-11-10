@@ -5,7 +5,8 @@ on:
     branches:
       - main    
     tags:
-      - "v*.*.*"    
+      - "v*.*.*"
+  workflow_dispatch:  # allows manual triggering
 
 permissions:
   contents: write  # Allow pushing and creating releases
@@ -23,56 +24,49 @@ jobs:
           fetch-depth: 0  # needed for pushing back changes
 
       - name: Check KiCad version
-        run: |
-          kicad-cli --version
+        run: kicad-cli --version
 
-      - name: Determine changed KiCad projects
+      - name: Detect changed KiCad modules
         id: detect
         run: |
+          # Detect changed files since last commit
           CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} || true)
 
-          ALL_PROJECTS="one two three four five six seven eight nine ten"
-          PROJECTS=""
-          for prj in $ALL_PROJECTS; do
-            if echo "$CHANGED_FILES" | grep -Eq "(^|/)${prj}\.kicad_(pcb|sch)"; then
-              PROJECTS="$PROJECTS $prj"
+          # Identify changed modules (folders under modules/)
+          MODULES=""
+          for path in $CHANGED_FILES; do
+            if [[ "$path" == modules/*/*.kicad_* ]]; then
+              module=$(echo "$path" | cut -d'/' -f2)
+              MODULES="$MODULES $module"
             fi
           done
 
-          if [ -z "$PROJECTS" ]; then
-            echo "No KiCad projects changed."
+          # Remove duplicates
+          MODULES=$(echo "$MODULES" | tr ' ' '\n' | sort -u | xargs)
+
+          if [ -z "$MODULES" ]; then
+            echo "No KiCad modules changed."
           else
-            echo "Changed projects:$PROJECTS"
+            echo "Changed modules: $MODULES"
           fi
 
-          echo "projects=$PROJECTS" >> $GITHUB_OUTPUT
+          echo "modules=$MODULES" >> $GITHUB_OUTPUT
 
-      - name: Run KiBot (Gerbers, iBOM, PDF)
-        if: steps.detect.outputs.projects != ''
-        uses: INTI-CMNB/KiBot@dev
-        with:
-          config: output.kibot.yaml
-          board: '${{ matrix.board }}'
-          schema: '${{ matrix.schema }}'
-          dir: production
-          install3D: true
-          verbose: true
-        strategy:
-          matrix:
-            include: []
+      - name: Run KiBot for changed modules
+        if: steps.detect.outputs.modules != ''
         run: |
-          for prj in ${{ steps.detect.outputs.projects }}; do
-            echo "▶ Running KiBot for project $prj ..."
-            mkdir -p production/$prj
-            kibot -c output.kibot.yaml \
-              -b "${prj}.kicad_pcb" \
-              -e "${prj}.kicad_sch" \
-              -d "production/$prj" \
-              || exit 1
+          for module in ${{ steps.detect.outputs.modules }}; do
+            echo "▶ Running KiBot for module: $module ..."
+            mkdir -p "production/$module"
+            kibot -c modules/output.kibot.yaml \
+              -b "modules/$module/$module.kicad_pcb" \
+              -e "modules/$module/$module.kicad_sch" \
+              -d "production/$module" \
+              --verbose || exit 1
           done
 
       - name: Commit generated files to production folder
-        if: steps.detect.outputs.projects != '' && github.ref == 'refs/heads/main'
+        if: steps.detect.outputs.modules != '' && github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -86,12 +80,12 @@ jobs:
           fi
 
       - name: Create GitHub Release
-        if: steps.detect.outputs.projects != ''
+        if: steps.detect.outputs.modules != ''
         uses: softprops/action-gh-release@v2
         with:
           tag_name: "JLCPCB-${{ github.run_number }}"
           name: "JLCPCB Export #${{ github.run_number }}"
-          body: "Automatically generated fabrication and assembly files for changed KiCad projects."
+          body: "Automatically generated fabrication and assembly files for changed KiCad modules."
           files: |
             production/**/Fabrication/JLCPCB/*.zip
             production/**/Fabrication/PDFs/*.pdf
