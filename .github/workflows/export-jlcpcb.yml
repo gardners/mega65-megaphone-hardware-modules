@@ -28,11 +28,11 @@ jobs:
 
       - name: Detect changed KiCad modules
         id: detect
+        shell: bash
         run: |
-          # Detect changed files since last commit
+          echo "🔍 Detecting changed KiCad projects..."
           CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} || true)
 
-          # Identify changed modules (folders under modules/)
           MODULES=""
           for path in $CHANGED_FILES; do
             if [[ "$path" == modules/*/*.kicad_* ]]; then
@@ -45,9 +45,9 @@ jobs:
           MODULES=$(echo "$MODULES" | tr ' ' '\n' | sort -u | xargs)
 
           if [ -z "$MODULES" ]; then
-            echo "No KiCad modules changed."
+            echo "⚠️ No KiCad modules changed."
           else
-            echo "Changed modules: $MODULES"
+            echo "✅ Changed modules: $MODULES"
           fi
 
           echo "modules=$MODULES" >> $GITHUB_OUTPUT
