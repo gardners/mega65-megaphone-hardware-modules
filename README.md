@@ -99,3 +99,18 @@ Status of the modules
 | 2.8 | [LCD Panel Interface](modules/lcd-panel) | Y | N | N | N | N | N | N |
 | 2.9 | [Aux Comms]() | Y | N | N | N | N | N | N |
 | 2.10 | [Main Carrier Board]() | Y | N | N | N | N | N | N |
+
+
+### Assembled modules
+
+First batch
+
+![Assembled](/pic/assembled_1.jpg)
+
+LCD 
+
+![Assembled](/pic/assembled_2.jpg)
+
+DC/DC
+
+![Assembled](/pic/assembled_3.jpg)
