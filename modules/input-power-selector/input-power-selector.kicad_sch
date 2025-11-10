@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "c18eebf3-c622-42ce-a76a-45e5fabab2b4")
 	(paper "A4")
+	(title_block
+		(title "${project_name}")
+		(date "2025-11-10")
+		(rev "${project_version}")
+		(company "${project_creator}")
+		(comment 1 "${project_license}")
+	)
 	(lib_symbols
 		(symbol "2025-03-01_04-59-26:SI4909DY-T1-GE3"
 			(pin_names
@@ -3516,6 +3523,45 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 226.568 12.7)
+		(end 282.448 48.26)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.1)
+		)
+		(uuid 3fa68ad3-fb8b-4bf9-b430-9585bed6cc57)
+	)
+	(rectangle
+		(start -282.829 196.977)
+		(end -223.901 242.697)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.1)
+		)
+		(uuid c27ffb58-47e1-40bd-b7aa-22623794d8eb)
+	)
+	(rectangle
+		(start 13.462 13.462)
+		(end 82.169 28.956)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 58 146 255 1)
+		)
+		(uuid d9883954-b65c-452f-b22a-c8562d9a3de9)
+	)
 	(text "For the resistor laddars on the input power sources to\nthe source selector, we need to get V_UV and V_OV = 1V\nat the respective ends of the acceptable voltage range.\n\nIf we aim for 5V -- 28V being acceptable, then we can\nuse 246K, 51K and 11K, from VIN to GND respectively."
 		(exclude_from_sim no)
 		(at 17.78 94.742 0)
@@ -3527,6 +3573,18 @@
 		)
 		(uuid "123b0244-d32b-4856-9ff0-645a509e33d9")
 	)
+	(text "3D top side"
+		(exclude_from_sim no)
+		(at -254.127 201.803 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "33d36a5d-64e9-48a1-90c9-5f7bc0a8ea31")
+	)
 	(text "Filter on VOUT pin to protect against\nnegative transients if output side is shorted."
 		(exclude_from_sim no)
 		(at 141.224 184.658 0)
@@ -3537,15 +3595,120 @@
 		)
 		(uuid "3a20727a-1dfe-4fda-a59d-6e428987caff")
 	)
+	(text "......"
+		(exclude_from_sim no)
+		(at 235.966 23.876 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "47db900a-b263-45a0-8abf-02a7a44a5037")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 270.256 30.734 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#1")
+		)
+		(uuid "5344a477-2d13-47a0-bb47-085392e931ab")
+	)
+	(text "CoverPage"
+		(exclude_from_sim no)
+		(at 243.84 30.48 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#1")
+		)
+		(uuid "6239ddbc-eb38-4c99-846d-9ef5ac26f949")
+	)
+	(text "......"
+		(exclude_from_sim no)
+		(at 235.966 41.91 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "66cae952-cb8a-4418-a7fb-a0b228ccf958")
+	)
 	(text "Reverse polarity protection (to 100V)\nfor Dirty DC / external solar panel."
 		(exclude_from_sim no)
-		(at 211.328 124.968 0)
+		(at 211.836 126.492 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "72a77c50-d4cf-4471-8f3f-f91808a8ae9a")
+	)
+	(text "${project_name} ${project_version}\n${project_creator}\nLicense: ${project_license}\nYear: ${project_year}"
+		(exclude_from_sim no)
+		(at 15.24 15.24 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+			(justify left top)
+		)
+		(uuid "7df59b98-a6d3-4d86-81dd-8e0d3335a61a")
+	)
+	(text "Page"
+		(exclude_from_sim no)
+		(at 235.966 18.034 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "aa9a3f01-fb58-45e0-9bac-44575510de39")
+	)
+	(text "......."
+		(exclude_from_sim no)
+		(at 271.272 41.91 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "c00cea5e-9890-4ed7-b590-dbac0d842e85")
+	)
+	(text "         Index"
+		(exclude_from_sim no)
+		(at 257.81 18.034 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "c8e6d3fd-0935-4fd0-beeb-b60e1f0a91ac")
+	)
+	(text "......."
+		(exclude_from_sim no)
+		(at 270.51 23.876 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "d6f8f0c4-ae25-40b2-953f-6615f443baf0")
 	)
 	(text "Over-voltage protection bypass"
 		(exclude_from_sim no)
@@ -3825,7 +3988,7 @@
 		(uuid "fe474915-67fe-4d7b-b1ff-247dfeb6f87e")
 	)
 	(no_connect
-		(at 238.76 40.64)
+		(at 217.17 54.61)
 		(uuid "78717ec1-a90c-4ccc-82a9-ba7d0e0d7fbd")
 	)
 	(wire
@@ -4500,7 +4663,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 99.06) (xy 254 99.06)
+			(xy 231.14 113.03) (xy 232.41 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4710,7 +4873,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 99.06) (xy 238.76 99.06)
+			(xy 214.63 113.03) (xy 217.17 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5446,7 +5609,7 @@
 	)
 	(global_label "DIRTY_DC_+"
 		(shape input)
-		(at 252.73 50.8 0)
+		(at 231.14 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5456,7 +5619,7 @@
 		)
 		(uuid "0b61c757-98a1-4f7b-b23d-f81d743fb779")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.9638 50.8 0)
+			(at 245.3738 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5512,7 +5675,7 @@
 	)
 	(global_label "ENABLE"
 		(shape input)
-		(at 238.76 93.98 180)
+		(at 217.17 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5522,7 +5685,7 @@
 		)
 		(uuid "39794ae8-ee10-498b-9fbd-47e0c244fc70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.7596 93.98 0)
+			(at 207.1696 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5556,7 +5719,7 @@
 	)
 	(global_label "{slash}VALID1"
 		(shape output)
-		(at 238.76 88.9 180)
+		(at 217.17 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5566,7 +5729,7 @@
 		)
 		(uuid "49b11380-77e2-4b1e-b024-e67e35a92e63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.1547 88.9 0)
+			(at 206.5647 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5644,7 +5807,7 @@
 	)
 	(global_label "USB-C_POWER_IN"
 		(shape input)
-		(at 238.76 60.96 180)
+		(at 217.17 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5654,7 +5817,7 @@
 		)
 		(uuid "5fdf038f-a6f7-4d49-a6dc-55e684d5e607")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.781 60.96 0)
+			(at 197.191 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5688,7 +5851,7 @@
 	)
 	(global_label "{slash}SHUTDOWN"
 		(shape input)
-		(at 238.76 91.44 180)
+		(at 217.17 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5698,7 +5861,7 @@
 		)
 		(uuid "672c3b6f-8db9-40da-aaf2-23e1f1b96f2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.2238 91.44 0)
+			(at 202.6338 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,7 +5873,7 @@
 	)
 	(global_label "VOUT"
 		(shape output)
-		(at 238.76 50.8 180)
+		(at 217.17 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5720,7 +5883,7 @@
 		)
 		(uuid "6aebf7d9-9f2f-4b38-a986-9ca1a8b72bab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.0576 50.8 0)
+			(at 209.4676 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5732,7 +5895,7 @@
 	)
 	(global_label "VOUT"
 		(shape output)
-		(at 252.73 40.64 0)
+		(at 231.14 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5742,7 +5905,7 @@
 		)
 		(uuid "71804b9d-4e7b-4253-be1c-e553bf557cd0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.4324 40.64 0)
+			(at 238.8424 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,7 +5917,7 @@
 	)
 	(global_label "{slash}VALID3"
 		(shape output)
-		(at 238.76 83.82 180)
+		(at 217.17 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5764,7 +5927,7 @@
 		)
 		(uuid "778de4ca-5c42-4b1b-874e-d7aaf71c67ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.1547 83.82 0)
+			(at 206.5647 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6018,7 +6181,7 @@
 	)
 	(global_label "{slash}VALID2"
 		(shape output)
-		(at 238.76 86.36 180)
+		(at 217.17 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6028,7 +6191,7 @@
 		)
 		(uuid "b7ca7c32-83f2-46f1-9537-c5909c106fae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.1547 86.36 0)
+			(at 206.5647 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6150,7 +6313,7 @@
 	)
 	(global_label "DIRTY_DC_-"
 		(shape input)
-		(at 252.73 53.34 0)
+		(at 231.14 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6160,7 +6323,7 @@
 		)
 		(uuid "e4ef0749-c509-4171-a8de-16e31767e339")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.9638 53.34 0)
+			(at 245.3738 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6172,7 +6335,7 @@
 	)
 	(global_label "INTERNAL_SOLAR_IN"
 		(shape input)
-		(at 238.76 71.12 180)
+		(at 217.17 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6182,7 +6345,7 @@
 		)
 		(uuid "e845bf99-486c-47ce-8021-217546fc19c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.2085 71.12 0)
+			(at 195.6185 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7892,7 +8055,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 254 99.06 0)
+		(at 232.41 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7901,7 +8064,7 @@
 		(fields_autoplaced yes)
 		(uuid "542e4f01-c64d-498f-a1cd-29ea9718a37a")
 		(property "Reference" "#PWR20"
-			(at 254 105.41 0)
+			(at 232.41 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7910,7 +8073,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 104.14 0)
+			(at 232.41 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7918,7 +8081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 99.06 0)
+			(at 232.41 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7927,7 +8090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 99.06 0)
+			(at 232.41 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7936,7 +8099,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 99.06 0)
+			(at 232.41 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9217,7 +9380,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 99.06 0)
+		(at 214.63 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9226,7 +9389,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2969596-0c31-4605-b6ee-9b848b56e4b8")
 		(property "Reference" "#PWR19"
-			(at 236.22 105.41 0)
+			(at 214.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9235,7 +9398,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 104.14 0)
+			(at 214.63 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9243,7 +9406,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 99.06 0)
+			(at 214.63 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9252,7 +9415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 99.06 0)
+			(at 214.63 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9261,7 +9424,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 99.06 0)
+			(at 214.63 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9995,7 +10158,7 @@
 	)
 	(symbol
 		(lib_id "MegaCastle:MegaCastle2x24-Module-I42.0x56.2-M88887D8C0001")
-		(at 245.11 69.85 0)
+		(at 223.52 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10004,7 +10167,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5c83b06-bbd3-4a86-b566-27ad85b4b70c")
 		(property "Reference" "M2"
-			(at 245.745 35.56 0)
+			(at 224.155 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10012,7 +10175,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 245.745 36.83 0)
+			(at 224.155 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10020,7 +10183,7 @@
 			)
 		)
 		(property "Footprint" "MegaCastle:MegaCastle2x24-Module-I47.0x56.2-M88887D8C0001-SPAREPAD"
-			(at 245.11 106.68 0)
+			(at 223.52 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10029,7 +10192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 64.77 0)
+			(at 223.52 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10038,7 +10201,7 @@
 			)
 		)
 		(property "Description" "Generated using footprint-gen .. 42 55 14 M88887D8C0001"
-			(at 245.11 69.85 0)
+			(at 223.52 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)

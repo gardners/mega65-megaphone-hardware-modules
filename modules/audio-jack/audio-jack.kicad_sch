@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "11c40d59-ce80-46cc-9a27-56abc67b9c9a")
 	(paper "A4")
+	(title_block
+		(title "${project_name}")
+		(date "2025-11-10")
+		(rev "${project_version}")
+		(company "${project_creator}")
+		(comment 1 "${project_license}")
+	)
 	(lib_symbols
 		(symbol "Jumper:Jumper_2_Bridged"
 			(pin_names
@@ -804,13 +811,169 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 226.822 16.51)
+		(end 282.702 62.23)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.1)
+		)
+		(uuid 3fa68ad3-fb8b-4bf9-b430-9585bed6cc57)
+	)
+	(rectangle
+		(start 16.764 150.114)
+		(end 75.692 195.834)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.1)
+		)
+		(uuid c27ffb58-47e1-40bd-b7aa-22623794d8eb)
+	)
+	(rectangle
+		(start 17.526 15.24)
+		(end 75.946 30.734)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 58 146 255 1)
+		)
+		(uuid d9883954-b65c-452f-b22a-c8562d9a3de9)
+	)
+	(text "3D top side"
+		(exclude_from_sim no)
+		(at 45.466 154.94 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "33d36a5d-64e9-48a1-90c9-5f7bc0a8ea31")
+	)
+	(text "......"
+		(exclude_from_sim no)
+		(at 236.22 27.686 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "47db900a-b263-45a0-8abf-02a7a44a5037")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 270.51 34.544 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#1")
+		)
+		(uuid "5344a477-2d13-47a0-bb47-085392e931ab")
+	)
+	(text "CoverPage"
+		(exclude_from_sim no)
+		(at 244.094 34.29 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#1")
+		)
+		(uuid "6239ddbc-eb38-4c99-846d-9ef5ac26f949")
+	)
+	(text "......"
+		(exclude_from_sim no)
+		(at 236.22 45.72 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "66cae952-cb8a-4418-a7fb-a0b228ccf958")
+	)
+	(text "${project_name} ${project_version}\n${project_creator}\nLicense: ${project_license}\nYear: ${project_year}"
+		(exclude_from_sim no)
+		(at 19.304 17.018 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+			(justify left top)
+		)
+		(uuid "7df59b98-a6d3-4d86-81dd-8e0d3335a61a")
+	)
+	(text "Page"
+		(exclude_from_sim no)
+		(at 236.22 21.844 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "aa9a3f01-fb58-45e0-9bac-44575510de39")
+	)
+	(text "......."
+		(exclude_from_sim no)
+		(at 271.526 45.72 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "c00cea5e-9890-4ed7-b590-dbac0d842e85")
+	)
+	(text "         Index"
+		(exclude_from_sim no)
+		(at 258.064 21.844 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "c8e6d3fd-0935-4fd0-beeb-b60e1f0a91ac")
+	)
+	(text "......."
+		(exclude_from_sim no)
+		(at 270.764 27.686 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "d6f8f0c4-ae25-40b2-953f-6615f443baf0")
+	)
 	(no_connect
-		(at 116.84 48.26)
+		(at 170.18 88.9)
 		(uuid "b0aa6e17-5f1d-4f10-852b-93b6e78accb0")
 	)
 	(wire
 		(pts
-			(xy 111.76 58.42) (xy 116.84 58.42)
+			(xy 165.1 99.06) (xy 170.18 99.06)
 		)
 		(stroke
 			(width 0)
@@ -820,7 +983,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 38.1) (xy 77.47 38.1)
+			(xy 135.89 78.74) (xy 130.81 78.74)
 		)
 		(stroke
 			(width 0)
@@ -830,7 +993,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 41.91) (xy 82.55 38.1)
+			(xy 135.89 82.55) (xy 135.89 78.74)
 		)
 		(stroke
 			(width 0)
@@ -840,7 +1003,7 @@
 	)
 	(global_label "LEFT"
 		(shape input)
-		(at 130.81 48.26 0)
+		(at 184.15 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -850,7 +1013,7 @@
 		)
 		(uuid "323f7d08-e0fa-4fd9-9a83-55fa2935a8e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.0285 48.26 0)
+			(at 191.3685 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,7 +1025,7 @@
 	)
 	(global_label "MIC"
 		(shape input)
-		(at 92.71 54.61 0)
+		(at 146.05 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -872,7 +1035,7 @@
 		)
 		(uuid "33d00222-6d4b-4853-9fc2-67cc9cd62322")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.0214 54.61 0)
+			(at 152.3614 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -884,7 +1047,7 @@
 	)
 	(global_label "MIC"
 		(shape input)
-		(at 130.81 55.88 0)
+		(at 184.15 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -894,7 +1057,7 @@
 		)
 		(uuid "45c6f997-8421-442f-89da-e7baaf5e41fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.1214 55.88 0)
+			(at 190.4614 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -906,7 +1069,7 @@
 	)
 	(global_label "RIGHT"
 		(shape input)
-		(at 130.81 58.42 0)
+		(at 184.15 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -916,7 +1079,7 @@
 		)
 		(uuid "8ffadc52-f368-4b45-98ba-2b5b1091e0ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.2381 58.42 0)
+			(at 192.5781 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -928,7 +1091,7 @@
 	)
 	(global_label "RIGHT"
 		(shape input)
-		(at 82.55 74.93 0)
+		(at 135.89 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -938,7 +1101,7 @@
 		)
 		(uuid "90593833-5897-4be5-b6ad-c8098e6b6f29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.9781 74.93 0)
+			(at 144.3181 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -950,7 +1113,7 @@
 	)
 	(global_label "LEFT"
 		(shape input)
-		(at 92.71 57.15 0)
+		(at 146.05 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -960,7 +1123,7 @@
 		)
 		(uuid "bd29c9c9-c2dc-4fa5-bc0f-c7e589ebb0ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.9285 57.15 0)
+			(at 153.2685 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,7 +1135,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 87.63 54.61 0)
+		(at 140.97 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -981,7 +1144,7 @@
 		(fields_autoplaced yes)
 		(uuid "183a3232-9feb-4f48-9d01-1e67911f87e5")
 		(property "Reference" "JP1"
-			(at 87.63 49.53 0)
+			(at 140.97 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -989,7 +1152,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Bridged"
-			(at 87.63 52.07 0)
+			(at 140.97 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -997,7 +1160,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 87.63 54.61 0)
+			(at 140.97 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1006,7 +1169,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 54.61 0)
+			(at 140.97 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1015,7 +1178,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 87.63 54.61 0)
+			(at 140.97 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1040,7 +1203,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 82.55 46.99 90)
+		(at 135.89 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1048,7 +1211,7 @@
 		(dnp no)
 		(uuid "5b12532f-12bc-4d57-8d74-94172800b8e1")
 		(property "Reference" "JP3"
-			(at 84.074 43.688 90)
+			(at 137.414 84.328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1057,7 +1220,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Bridged"
-			(at 84.074 46.228 90)
+			(at 137.414 86.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1066,7 +1229,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 82.55 46.99 0)
+			(at 135.89 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1075,7 +1238,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 46.99 0)
+			(at 135.89 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1084,7 +1247,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 82.55 46.99 0)
+			(at 135.89 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1109,7 +1272,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 87.63 57.15 180)
+		(at 140.97 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1117,7 +1280,7 @@
 		(dnp no)
 		(uuid "701922f7-9c98-4daa-b40f-0f624ef87f98")
 		(property "Reference" "JP4"
-			(at 87.884 60.198 0)
+			(at 141.224 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1125,7 +1288,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Bridged"
-			(at 87.884 62.738 0)
+			(at 141.224 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1133,7 +1296,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 87.63 57.15 0)
+			(at 140.97 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1142,7 +1305,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 57.15 0)
+			(at 140.97 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1151,7 +1314,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 87.63 57.15 0)
+			(at 140.97 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1176,7 +1339,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 82.55 69.85 90)
+		(at 135.89 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1185,7 +1348,7 @@
 		(fields_autoplaced yes)
 		(uuid "7886584f-d5b3-4e0c-b9a8-dce41684ace2")
 		(property "Reference" "JP2"
-			(at 83.82 68.5799 90)
+			(at 137.16 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,7 +1357,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Bridged"
-			(at 83.82 71.1199 90)
+			(at 137.16 111.7599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1203,7 +1366,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 82.55 69.85 0)
+			(at 135.89 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,7 +1375,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 69.85 0)
+			(at 135.89 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,7 +1384,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 82.55 69.85 0)
+			(at 135.89 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1246,7 +1409,7 @@
 	)
 	(symbol
 		(lib_id "SJ-43514-SMT-TR:SJ-43514-SMT-TR")
-		(at 69.85 57.15 0)
+		(at 123.19 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1255,7 +1418,7 @@
 		(fields_autoplaced yes)
 		(uuid "9593ca1f-657d-443d-9817-93e6eb4e0aab")
 		(property "Reference" "J1"
-			(at 69.85 44.45 0)
+			(at 123.19 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1263,7 +1426,7 @@
 			)
 		)
 		(property "Value" "SJ-43514-SMT-TR"
-			(at 69.85 46.99 0)
+			(at 123.19 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,7 +1434,7 @@
 			)
 		)
 		(property "Footprint" "audio-jack:CUI_SJ-43514-SMT-TR"
-			(at 69.85 57.15 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1281,7 +1444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 57.15 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,7 +1454,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 57.15 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1300,7 +1463,7 @@
 			)
 		)
 		(property "PARTREV" "1.05"
-			(at 69.85 57.15 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1310,7 +1473,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 69.85 57.15 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1320,7 +1483,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "SJ-43514-SMT-TR"
-			(at 69.85 57.15 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1330,7 +1493,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5.3mm"
-			(at 69.85 57.15 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1340,7 +1503,7 @@
 			)
 		)
 		(property "MANUFACTURER" "CUI Devices"
-			(at 69.85 57.15 0)
+			(at 123.19 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1372,7 +1535,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 38.1 0)
+		(at 130.81 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1381,7 +1544,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2dc8468-f0f2-4b79-a799-9cdcb29fb8fe")
 		(property "Reference" "#PWR01"
-			(at 77.47 44.45 0)
+			(at 130.81 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1390,7 +1553,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 43.18 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1398,7 +1561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 38.1 0)
+			(at 130.81 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1407,7 +1570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 38.1 0)
+			(at 130.81 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1416,7 +1579,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 38.1 0)
+			(at 130.81 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1438,7 +1601,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 58.42 0)
+		(at 165.1 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1447,7 +1610,7 @@
 		(fields_autoplaced yes)
 		(uuid "e82e648d-d09b-4d77-8c01-53cc223b7d33")
 		(property "Reference" "#PWR02"
-			(at 111.76 64.77 0)
+			(at 165.1 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1456,7 +1619,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 63.5 0)
+			(at 165.1 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1464,7 +1627,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 58.42 0)
+			(at 165.1 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1473,7 +1636,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 58.42 0)
+			(at 165.1 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1482,7 +1645,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 58.42 0)
+			(at 165.1 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,7 +1667,7 @@
 	)
 	(symbol
 		(lib_id "MegaCastle:MegaCastle2x5-Module-I15.0x7.9-M8CC")
-		(at 123.19 53.34 0)
+		(at 176.53 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1513,7 +1676,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8c995de-9e6d-468e-92f7-a07ca18b5738")
 		(property "Reference" "M1"
-			(at 123.825 41.91 0)
+			(at 177.165 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1521,7 +1684,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 123.825 44.45 0)
+			(at 177.165 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1529,7 +1692,7 @@
 			)
 		)
 		(property "Footprint" "MegaCastle:MegaCastle2x7-Module-I15.0x13.0-M8314-SPAREPAD"
-			(at 123.19 66.04 0)
+			(at 176.53 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,7 +1701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 48.26 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1547,7 +1710,7 @@
 			)
 		)
 		(property "Description" "Generated using footprint-gen ../ 15 15 5 M8CC"
-			(at 123.19 53.34 0)
+			(at 176.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)

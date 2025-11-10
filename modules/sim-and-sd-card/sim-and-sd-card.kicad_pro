@@ -604,5 +604,11 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "project_creator": "gardners",
+    "project_license": "CERN-OHL-S v2",
+    "project_name": "Mega65Modular SIM/SD",
+    "project_version": "v0.1",
+    "project_year": "2025"
+  }
 }
