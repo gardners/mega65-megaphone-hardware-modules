@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.1+dfsg-1*%
+%TF.CreationDate,2025-05-01T10:56:30+02:00*%
+%TF.ProjectId,audio-jack,61756469-6f2d-46a6-9163-6b2e6b696361,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Top*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.1+dfsg-1) date 2025-05-01 10:56:30*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10R,2.000000X3.000000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J1*%
+X40600000Y-40000000D03*
+X53000000Y-40000000D03*
+X45300000Y-33000000D03*
+X43500000Y-40000000D03*
+%TD*%
+M02*

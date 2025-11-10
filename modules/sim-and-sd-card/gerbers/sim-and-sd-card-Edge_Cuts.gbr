@@ -1,0 +1,28 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.1+dfsg-1*%
+%TF.CreationDate,2025-05-01T11:04:41+02:00*%
+%TF.ProjectId,sim-and-sd-card,73696d2d-616e-4642-9d73-642d63617264,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.1+dfsg-1) date 2025-05-01 11:04:41*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,M1*%
+X48720800Y-61518800D02*
+X48720800Y-36118800D01*
+X70720800Y-36118800D02*
+X48720800Y-36118800D01*
+X70720800Y-61518800D02*
+X48720800Y-61518800D01*
+X70720800Y-61518800D02*
+X70720800Y-36118800D01*
+%TD*%
+M02*
