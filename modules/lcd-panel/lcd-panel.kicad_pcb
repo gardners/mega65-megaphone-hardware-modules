@@ -3402,7 +3402,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "42c01c03-68fe-4187-b689-0784eafda6fd")
+			(uuid "b214d44f-fd4e-41fb-9073-bf76e2a9155f")
 		)
 		(pad "25" thru_hole circle
 			(at 0.000003 0)
@@ -3413,7 +3413,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "42c01c03-68fe-4187-b689-0784eafda6fd")
+			(uuid "17e5ccb9-c4f8-49fd-a32a-823e35b8cc65")
 		)
 		(pad "25" smd rect
 			(at 0.000003 0)
@@ -3422,7 +3422,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "42c01c03-68fe-4187-b689-0784eafda6fd")
+			(uuid "50f6d0b5-b861-423f-a7d8-094d979edf6e")
 		)
 		(pad "25" thru_hole circle
 			(at 0.000003 1.05)
@@ -3433,7 +3433,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "42c01c03-68fe-4187-b689-0784eafda6fd")
+			(uuid "8123b390-122a-4e68-a154-c93924c00aff")
 		)
 		(pad "25" thru_hole circle
 			(at 1.050003 0)
@@ -3444,7 +3444,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "42c01c03-68fe-4187-b689-0784eafda6fd")
+			(uuid "97a917c6-e3a2-4538-ab2d-520b5679481a")
 		)
 		(embedded_fonts no)
 	)
@@ -4861,6 +4861,80 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "7f5bd116-994f-465c-9305-01c8a15c3974")
+		(pts
+			(xy 128.4 50.169999) (xy 128.4 141.610001)
+		)
+		(height 5.98)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "91.4400 mm"
+			(at 133.23 95.89 90)
+			(layer "Dwgs.User")
+			(uuid "7f5bd116-994f-465c-9305-01c8a15c3974")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "d3e79688-cc1f-40a8-880e-6e4586bc10ab")
+		(pts
+			(xy 88.33 50.17) (xy 128.4 50.169999)
+		)
+		(height -5.57)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "40.0700 mm"
+			(at 108.365 43.45 0)
+			(layer "Dwgs.User")
+			(uuid "d3e79688-cc1f-40a8-880e-6e4586bc10ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
 			)
 		)
 	)

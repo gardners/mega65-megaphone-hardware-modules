@@ -312,7 +312,7 @@
 	)
 	(text "These USB-C Power Delivery modules that are available on AliExpress, \nAmazon and lots of other places are pretty good, but more variable than\nthe share-price of snake oil.\n\nWATCH ESPECIALLY FOR POLARITY SWITCHING OF THE POWER OUTPUT PINS!\n\nYou shouldn't need to change anything on this schematic, as it really\nis just connecting the power and GND pins. To support other variants\nyou will instead need to go to the PCB layout, and select the footprint\nthere and then press E, and then select \"open in footprint editor\" to\nmunge it to suit your module."
 		(exclude_from_sim no)
-		(at 29.21 34.544 0)
+		(at 49.53 48.514 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -322,20 +322,20 @@
 		(uuid "546cacd9-a031-49a2-8ee0-8f2b096d7d15")
 	)
 	(no_connect
-		(at 54.61 83.82)
+		(at 74.93 97.79)
 		(uuid "5864402b-890b-4c87-af9f-94d7331b4f77")
 	)
 	(no_connect
-		(at 40.64 55.88)
+		(at 60.96 69.85)
 		(uuid "98db162a-cc96-42e3-aa0f-7989b3d9598e")
 	)
 	(no_connect
-		(at 54.61 55.88)
+		(at 74.93 69.85)
 		(uuid "b1de8904-4a76-4547-a687-50b083a9f514")
 	)
 	(global_label "GND"
 		(shape input)
-		(at 40.64 86.36 180)
+		(at 60.96 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -345,7 +345,7 @@
 		)
 		(uuid "3701a2eb-8afd-4f2f-b3a0-a4dc43f93231")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.7843 86.36 0)
+			(at 54.1043 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -357,7 +357,7 @@
 	)
 	(global_label "+20V"
 		(shape input)
-		(at 81.28 52.07 180)
+		(at 101.6 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -367,7 +367,7 @@
 		)
 		(uuid "4ad22cee-98a2-430b-a046-317b1b8f53a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.2148 52.07 0)
+			(at 93.5348 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -379,7 +379,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 81.28 54.61 180)
+		(at 101.6 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -389,7 +389,7 @@
 		)
 		(uuid "854ca9dc-d85c-44fb-a29d-7d14b6704b3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.4243 54.61 0)
+			(at 94.7443 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -401,7 +401,7 @@
 	)
 	(global_label "+20V"
 		(shape input)
-		(at 54.61 86.36 0)
+		(at 74.93 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -411,7 +411,7 @@
 		)
 		(uuid "e1a8ab8c-69fc-47e9-84a8-6da4a883a130")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.6752 86.36 0)
+			(at 82.9952 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -423,7 +423,7 @@
 	)
 	(symbol
 		(lib_id "MegaCastle:MegaCastle2x13-Module-I14.0x28.2-M800C00C-NOCUTOUT-EDGE")
-		(at 46.99 71.12 0)
+		(at 67.31 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -432,7 +432,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d1e1785-4b76-4b70-ab47-81d631be861e")
 		(property "Reference" "M1"
-			(at 47.4938 46.99 0)
+			(at 67.8138 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -440,7 +440,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 47.4938 49.53 0)
+			(at 67.8138 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -448,7 +448,7 @@
 			)
 		)
 		(property "Footprint" "MegaCastle:MegaCastle2x13-Module-I20.0x28.2-M800C00C-SPAREPAD"
-			(at 46.99 93.98 0)
+			(at 67.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -457,7 +457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 66.04 0)
+			(at 67.31 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -466,7 +466,7 @@
 			)
 		)
 		(property "Description" "Generated using footprint-gen .. 14 28 5 M800C00C"
-			(at 46.99 71.12 0)
+			(at 67.31 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -500,7 +500,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 86.36 52.07 0)
+		(at 106.68 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -509,7 +509,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1f703d0-3bf6-4b5c-b27b-19b67637e715")
 		(property "Reference" "J1"
-			(at 88.9 52.0699 0)
+			(at 109.22 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -518,7 +518,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 88.9 54.6099 0)
+			(at 109.22 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -527,7 +527,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 86.36 52.07 0)
+			(at 106.68 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -536,7 +536,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 52.07 0)
+			(at 106.68 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -545,7 +545,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 86.36 52.07 0)
+			(at 106.68 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)

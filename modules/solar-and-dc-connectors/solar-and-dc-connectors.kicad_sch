@@ -979,20 +979,20 @@
 		)
 	)
 	(no_connect
-		(at 53.34 46.99)
+		(at 54.61 49.53)
 		(uuid "067af244-0278-40cf-b111-7f456f3db981")
 	)
 	(no_connect
-		(at 67.31 69.85)
+		(at 68.58 72.39)
 		(uuid "a0c7a580-576d-4274-8ddd-9ce5e07fa2e1")
 	)
 	(no_connect
-		(at 67.31 72.39)
+		(at 68.58 74.93)
 		(uuid "dbde0b82-3bfe-46f7-b698-07e8ab467f9d")
 	)
 	(global_label "DIRTY_DC_-_SENSE"
 		(shape input)
-		(at 67.31 67.31 0)
+		(at 68.58 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1002,7 +1002,7 @@
 		)
 		(uuid "1139df40-4ed3-4d97-ba29-75ee0d15e092")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.5589 67.31 0)
+			(at 89.8289 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1014,7 +1014,7 @@
 	)
 	(global_label "DIRTY_DC_-"
 		(shape input)
-		(at 116.84 74.93 0)
+		(at 118.11 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1024,7 +1024,7 @@
 		)
 		(uuid "460116d1-47e8-41d6-91c5-b9b50f265104")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.0738 74.93 0)
+			(at 132.3438 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1036,7 +1036,7 @@
 	)
 	(global_label "INTERNAL_SOLAR_+"
 		(shape input)
-		(at 67.31 74.93 0)
+		(at 68.58 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1046,7 +1046,7 @@
 		)
 		(uuid "5c5345be-b406-44c7-aa4b-8b222cc4a3c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.4986 74.93 0)
+			(at 89.7686 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1058,7 +1058,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 53.34 74.93 180)
+		(at 54.61 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1068,7 +1068,7 @@
 		)
 		(uuid "704da013-1260-4bfd-9123-e60660825018")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.4843 74.93 0)
+			(at 47.7543 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1080,7 +1080,7 @@
 	)
 	(global_label "DIRTY_DC_-"
 		(shape input)
-		(at 67.31 64.77 0)
+		(at 68.58 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1090,7 +1090,7 @@
 		)
 		(uuid "8b23d3f2-7148-4b28-961c-c318d7fd020f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.5438 64.77 0)
+			(at 82.8138 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1102,7 +1102,7 @@
 	)
 	(global_label "INTERNAL_SOLAR_+"
 		(shape input)
-		(at 102.87 46.99 180)
+		(at 104.14 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1112,7 +1112,7 @@
 		)
 		(uuid "a20ac8fc-f7d1-4cae-8d49-5a3c5557f206")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.6814 46.99 0)
+			(at 82.9514 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1124,7 +1124,7 @@
 	)
 	(global_label "DIRTY_DC_+"
 		(shape input)
-		(at 67.31 46.99 0)
+		(at 68.58 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1134,7 +1134,7 @@
 		)
 		(uuid "a8122162-a14d-4490-af97-d741ebdbfdd4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.5438 46.99 0)
+			(at 82.8138 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1146,7 +1146,7 @@
 	)
 	(global_label "DIRTY_DC_+"
 		(shape input)
-		(at 116.84 69.85 0)
+		(at 118.11 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1156,7 +1156,7 @@
 		)
 		(uuid "ae2e0cd5-6c7f-4eae-8eea-3bcbf697950b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.0738 69.85 0)
+			(at 132.3438 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1168,7 +1168,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 102.87 49.53 180)
+		(at 104.14 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1178,7 +1178,7 @@
 		)
 		(uuid "c33111b1-6bea-4d3a-a4d4-601162b4427a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.0143 49.53 0)
+			(at 97.2843 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1190,7 +1190,7 @@
 	)
 	(global_label "DIRTY_DC_-_SENSE"
 		(shape input)
-		(at 116.84 72.39 0)
+		(at 118.11 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1200,7 +1200,7 @@
 		)
 		(uuid "ec1f0a9f-8596-454b-a8a5-3268acf3a3e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.0889 72.39 0)
+			(at 139.3589 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,7 +1212,7 @@
 	)
 	(symbol
 		(lib_id "MegaCastle:MegaCastle2x12-Module-I12.5x25.7-M80181F-EDGE")
-		(at 59.69 60.96 0)
+		(at 60.96 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1221,7 +1221,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f229e6a-1032-4643-9cf3-aa83a8444879")
 		(property "Reference" "M1"
-			(at 60.1938 38.1 0)
+			(at 61.4638 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,7 +1229,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 60.1938 40.64 0)
+			(at 61.4638 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1237,7 +1237,7 @@
 			)
 		)
 		(property "Footprint" "MegaCastle:MegaCastle2x12-Module-I20.0x25.7-M80181F-SPAREPAD"
-			(at 59.69 82.55 0)
+			(at 60.96 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1246,7 +1246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 55.88 0)
+			(at 60.96 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1255,7 +1255,7 @@
 			)
 		)
 		(property "Description" "Generated using footprint-gen .. 12.5 25.4 8 M80181F"
-			(at 59.69 60.96 0)
+			(at 60.96 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1298,7 +1298,7 @@
 	)
 	(symbol
 		(lib_id "2025-03-05_08-59-15:S2B-PH-K-SLFSN")
-		(at 102.87 46.99 0)
+		(at 104.14 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1307,7 +1307,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3dd8b56-c25e-461f-8c3f-0df082e5b229")
 		(property "Reference" "J1"
-			(at 116.84 46.9899 0)
+			(at 118.11 49.5299 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1316,7 +1316,7 @@
 			)
 		)
 		(property "Value" "S2B-PH-K-SLFSN"
-			(at 116.84 49.5299 0)
+			(at 118.11 52.0699 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1325,7 +1325,7 @@
 			)
 		)
 		(property "Footprint" "MegaCastle:CONN_S2B-PH-K-S_JST"
-			(at 102.87 46.99 0)
+			(at 104.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1335,7 +1335,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/564/ePH-3433490.pdf"
-			(at 102.87 46.99 0)
+			(at 104.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,7 +1345,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 46.99 0)
+			(at 104.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,7 +1354,7 @@
 			)
 		)
 		(property "Mouser" "https://eu.mouser.com/ProductDetail/JST-Commercial/S2B-PH-K-SLFSN?qs=cdbOS8ANM9A5Ie4gXeMjTA%3D%3D"
-			(at 102.87 46.99 0)
+			(at 104.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1363,7 +1363,7 @@
 			)
 		)
 		(property "Mouser PN" "306-S2BPHKSLFSNPP"
-			(at 102.87 46.99 0)
+			(at 104.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1372,7 +1372,7 @@
 			)
 		)
 		(property "Mfr. PN" " S2B-PH-K-S(LF)(SN) "
-			(at 102.87 46.99 0)
+			(at 104.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1397,7 +1397,7 @@
 	)
 	(symbol
 		(lib_id "54-00127:54-00127")
-		(at 111.76 72.39 0)
+		(at 113.03 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1406,7 +1406,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1ad71dc-090c-4096-a73f-9c8812d92911")
 		(property "Reference" "J2"
-			(at 107.0003 63.5 0)
+			(at 108.2703 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,7 +1414,7 @@
 			)
 		)
 		(property "Value" "54-00127"
-			(at 107.0003 66.04 0)
+			(at 108.2703 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1422,7 +1422,7 @@
 			)
 		)
 		(property "Footprint" "MegaCastle:TENSILITY_54-00127"
-			(at 111.76 72.39 0)
+			(at 113.03 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1432,7 +1432,7 @@
 			)
 		)
 		(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00127.pdf"
-			(at 111.76 72.39 0)
+			(at 113.03 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1441,7 +1441,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 72.39 0)
+			(at 113.03 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1450,7 +1450,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 111.76 72.39 0)
+			(at 113.03 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1460,7 +1460,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 111.76 72.39 0)
+			(at 113.03 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1470,7 +1470,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "54-00127"
-			(at 111.76 72.39 0)
+			(at 113.03 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,7 +1480,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "7.3mm"
-			(at 111.76 72.39 0)
+			(at 113.03 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1490,7 +1490,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TENSILITY"
-			(at 111.76 72.39 0)
+			(at 113.03 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1500,7 +1500,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.com/en/products/detail/tensility-international-corp/54-00127/9685436"
-			(at 111.76 72.39 0)
+			(at 113.03 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
