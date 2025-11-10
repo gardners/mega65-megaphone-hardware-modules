@@ -84,18 +84,18 @@ The remediation budget line is to allow for adjustment to the case design, the f
 
 Status of the modules 
 
-| Milestone | Module | Reqs | Sch | Layout | Fab | Assembly | Test | Revision | Link |
+| Milestone | Module | Reqs | Sch | Layout | Fab | Assembly | Test | Revision |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2.1 | [High Efficieny DC-DC Converter](https://github.com/gardners/mega65-megaphone-hardware-modules/tree/main/modules/high-efficiency_dc-dc_converter) | Y | Y | Y | Y | N | N | N | |
+| 2.1 | [High Efficieny DC-DC Converter](modules/high-efficiency_dc-dc_converter) | Y | Y | Y | Y | N | N | N |
 | 2.2 | [Low-Enery Power Management Module]() | Y | Y | Y | Y | N | N | N |
-| 2.3 | [Battery Management / Solar / Charge Module](https://github.com/gardners/mega65-megaphone-hardware-modules/tree/main/modules/mppt-charge-controller) | Y | Y | Y | Y | N | N | N |
-| 2.4 | [Cellular Modem Comms Module](https://github.com/gardners/mega65-megaphone-hardware-modules/tree/main/modules/cellular-modem) | Y | Y | Y | Y | Y | Y | Y |
-| 2.4 | [SIM Card Carrier](https://github.com/gardners/mega65-megaphone-hardware-modules/tree/main/modules/sim-and-sd-card) | Y | Y | Y | Y | Y | Y | Y |
-| 2.5 | [Internal microphone](https://github.com/gardners/mega65-megaphone-hardware-modules/tree/main/modules/mems-microphone) | Y | N | N | N | N | N | N |
+| 2.3 | [Battery Management / Solar / Charge Module](modules/mppt-charge-controller) | Y | Y | Y | Y | N | N | N |
+| 2.4 | [Cellular Modem Comms Module](modules/cellular-modem) | Y | Y | Y | Y | Y | Y | Y |
+| 2.4 | [SIM Card Carrier](modules/sim-and-sd-card) | Y | Y | Y | Y | Y | Y | Y |
+| 2.5 | [Internal microphone](modules/mems-microphone) | Y | N | N | N | N | N | N |
 | 2.5 | [Internal speaker]() | Y | N | N | N | N | N | N |
 | 2.6 | [External speaker]() | Y | Y | Y | Y | N | N | N |
-| 2.6 | [Bluetooth headset interface](https://github.com/gardners/mega65-megaphone-hardware-modules/tree/main/modules/bluetooth) | Y | N | N | N | N | N | N |
-| 2.7 | [Primary FPGA carrier](https://github.com/gardners/mega65-megaphone-hardware-modules/tree/main/modules/te0725-carrier) | Y | Y | Y | Y | N | N | N |
+| 2.6 | [Bluetooth headset interface](modules/bluetooth) | Y | N | N | N | N | N | N |
+| 2.7 | [Primary FPGA carrier](modules/te0725-carrier) | Y | Y | Y | Y | N | N | N |
 | 2.8 | [LCD Panel Interface](modules/lcd-panel) | Y | N | N | N | N | N | N |
 | 2.9 | [Aux Comms]() | Y | N | N | N | N | N | N |
 | 2.10 | [Main Carrier Board]() | Y | N | N | N | N | N | N |
