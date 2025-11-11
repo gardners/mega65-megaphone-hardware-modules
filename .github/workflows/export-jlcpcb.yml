@@ -28,12 +28,21 @@ jobs:
           echo "🔍 Searching for KiCad modules in 'modules/'..."
           MODULES=$(find modules -mindepth 2 -maxdepth 2 -type f -name "*.kicad_pcb" \
             | sed -E 's|modules/([^/]+)/.*|\1|' | sort -u)
-          echo "✅ Found modules: $MODULES"
-          echo "modules=$MODULES" >> $GITHUB_OUTPUT
+
+          echo "✅ Found modules:"
+          echo "$MODULES"
+
+          # Write to GITHUB_OUTPUT safely (multiline syntax)
+          {
+            echo 'modules<<EOF'
+            echo "$MODULES"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
 
       - name: Run KiBot for all modules
         run: |
-          for module in ${{ steps.find.outputs.modules }}; do
+          while IFS= read -r module; do
+            [ -z "$module" ] && continue
             echo "▶ Running KiBot for module: $module ..."
             mkdir -p "production/$module"
             kibot -c modules/output.kibot.yaml \
@@ -41,7 +50,7 @@ jobs:
               -e "modules/$module/$module.kicad_sch" \
               -d "production/$module" \
               --verbose || exit 1
-          done
+          done <<< "${{ steps.find.outputs.modules }}"
 
       - name: Commit generated files to production folder
         run: |
