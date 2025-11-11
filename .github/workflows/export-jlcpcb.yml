@@ -29,19 +29,24 @@ jobs:
           MODULES=$(find modules -mindepth 2 -maxdepth 2 -type f -name "*.kicad_pcb" \
             | sed -E 's|modules/([^/]+)/.*|\1|' | sort -u)
 
-          echo "✅ Found modules:"
-          echo "$MODULES"
-
-          # Write to GITHUB_OUTPUT safely (multiline syntax)
-          {
-            echo 'modules<<EOF'
+          if [ -z "$MODULES" ]; then
+            echo "⚠️ No KiCad modules found!"
+          else
+            echo "✅ Found modules:"
             echo "$MODULES"
-            echo 'EOF'
-          } >> "$GITHUB_OUTPUT"
+          fi
+
+          # Use JSON array encoding for safety
+          modules_json=$(echo "$MODULES" | jq -R -s -c 'split("\n")[:-1]')
+          echo "modules=$modules_json" >> "$GITHUB_OUTPUT"
 
       - name: Run KiBot for all modules
+        shell: bash
         run: |
-          while IFS= read -r module; do
+          echo "🚀 Running KiBot for all modules..."
+          modules=$(echo '${{ steps.find.outputs.modules }}' | jq -r '.[]')
+
+          for module in $modules; do
             [ -z "$module" ] && continue
             echo "▶ Running KiBot for module: $module ..."
             mkdir -p "production/$module"
@@ -50,7 +55,7 @@ jobs:
               -e "modules/$module/$module.kicad_sch" \
               -d "production/$module" \
               --verbose || exit 1
-          done <<< "${{ steps.find.outputs.modules }}"
+          done
 
       - name: Commit generated files to production folder
         run: |
