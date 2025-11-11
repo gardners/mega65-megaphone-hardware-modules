@@ -25,6 +25,9 @@ jobs:
         id: find
         shell: bash
         run: |
+          echo "🔍 Installing jq..."
+          apt-get update -qq && apt-get install -y jq > /dev/null
+
           echo "🔍 Searching for KiCad modules in 'modules/'..."
           MODULES=$(find modules -mindepth 2 -maxdepth 2 -type f -name "*.kicad_pcb" \
             | sed -E 's|modules/([^/]+)/.*|\1|' | sort -u)
@@ -36,7 +39,7 @@ jobs:
             echo "$MODULES"
           fi
 
-          # Use JSON array encoding for safety
+          # Encode modules as JSON for safety
           modules_json=$(echo "$MODULES" | jq -R -s -c 'split("\n")[:-1]')
           echo "modules=$modules_json" >> "$GITHUB_OUTPUT"
 
@@ -44,12 +47,20 @@ jobs:
         shell: bash
         run: |
           echo "🚀 Running KiBot for all modules..."
+          apt-get update -qq && apt-get install -y jq > /dev/null
+
           modules=$(echo '${{ steps.find.outputs.modules }}' | jq -r '.[]')
 
           for module in $modules; do
             [ -z "$module" ] && continue
             echo "▶ Running KiBot for module: $module ..."
             mkdir -p "production/$module"
+
+            if [ ! -f "modules/$module/$module.kicad_pcb" ] || [ ! -f "modules/$module/$module.kicad_sch" ]; then
+              echo "⚠️ Skipping $module (missing schematic or board)"
+              continue
+            fi
+
             kibot -c modules/output.kibot.yaml \
               -b "modules/$module/$module.kicad_pcb" \
               -e "modules/$module/$module.kicad_sch" \
