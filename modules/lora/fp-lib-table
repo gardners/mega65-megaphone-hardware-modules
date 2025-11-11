@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MegaCastle")(type "KiCad")(uri "/home/goran/projects/mega65-megaphone-hardware-modules/MegaCastle.pretty")(options "")(descr ""))
+)
