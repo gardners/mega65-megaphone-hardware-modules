@@ -1,19 +1,14 @@
 name: Export JLCPCB Production Files
 
 on:
-  push:
-    branches:
-      - main    
-    tags:
-      - "v*.*.*"
-  workflow_dispatch:  # allows manual triggering
+  workflow_dispatch:  # manually triggered from the GitHub Actions tab
 
 permissions:
   contents: write  # Allow pushing and creating releases
 
 jobs:
   build:
-    name: Generate fabrication and assembly files
+    name: Generate fabrication and assembly files for all modules
     runs-on: ubuntu-22.04
     container: ghcr.io/inti-cmnb/kicad9_auto_full:dev
 
@@ -26,36 +21,19 @@ jobs:
       - name: Check KiCad version
         run: kicad-cli --version
 
-      - name: Detect changed KiCad modules
-        id: detect
+      - name: Find all KiCad modules
+        id: find
         shell: bash
         run: |
-          echo "🔍 Detecting changed KiCad projects..."
-          CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} || true)
-
-          MODULES=""
-          for path in $CHANGED_FILES; do
-            if [[ "$path" == modules/*/*.kicad_* ]]; then
-              module=$(echo "$path" | cut -d'/' -f2)
-              MODULES="$MODULES $module"
-            fi
-          done
-
-          # Remove duplicates
-          MODULES=$(echo "$MODULES" | tr ' ' '\n' | sort -u | xargs)
-
-          if [ -z "$MODULES" ]; then
-            echo "⚠️ No KiCad modules changed."
-          else
-            echo "✅ Changed modules: $MODULES"
-          fi
-
+          echo "🔍 Searching for KiCad modules in 'modules/'..."
+          MODULES=$(find modules -mindepth 2 -maxdepth 2 -type f -name "*.kicad_pcb" \
+            | sed -E 's|modules/([^/]+)/.*|\1|' | sort -u)
+          echo "✅ Found modules: $MODULES"
           echo "modules=$MODULES" >> $GITHUB_OUTPUT
 
-      - name: Run KiBot for changed modules
-        if: steps.detect.outputs.modules != ''
+      - name: Run KiBot for all modules
         run: |
-          for module in ${{ steps.detect.outputs.modules }}; do
+          for module in ${{ steps.find.outputs.modules }}; do
             echo "▶ Running KiBot for module: $module ..."
             mkdir -p "production/$module"
             kibot -c modules/output.kibot.yaml \
@@ -66,7 +44,6 @@ jobs:
           done
 
       - name: Commit generated files to production folder
-        if: steps.detect.outputs.modules != '' && github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -80,12 +57,11 @@ jobs:
           fi
 
       - name: Create GitHub Release
-        if: steps.detect.outputs.modules != ''
         uses: softprops/action-gh-release@v2
         with:
           tag_name: "JLCPCB-${{ github.run_number }}"
           name: "JLCPCB Export #${{ github.run_number }}"
-          body: "Automatically generated fabrication and assembly files for changed KiCad modules."
+          body: "Automatically generated fabrication and assembly files for all KiCad modules."
           files: |
             production/**/Fabrication/JLCPCB/*.zip
             production/**/Fabrication/PDFs/*.pdf
