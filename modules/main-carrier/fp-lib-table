@@ -2,5 +2,7 @@
   (version 7)
   (lib (name "intergalaktik")(type "KiCad")(uri "${KIPRJMOD}/footprints/intergalaktik")(options "")(descr ""))
   (lib (name "radiona")(type "KiCad")(uri "${KIPRJMOD}/footprints/radiona.pretty")(options "")(descr ""))
-  (lib (name "MegaCastle")(type "KiCad")(uri "/home/goran/projects/mega65-megaphone-hardware-modules/MegaCastle.pretty")(options "")(descr ""))
+  (lib (name "MegaCastle")(type "KiCad")(uri "${KIPRJMOD}/../../MegaCastle.pretty")(options "")(descr ""))
+  (lib (name "MegaCastle_modules")(type "KiCad")(uri "${KIPRJMOD}/../MegaCastle.pretty")(options "")(descr ""))
+  (lib (name "PCA9535DW")(type "KiCad")(uri "${KIPRJMOD}/../../lib/PCA9535DW/KiCad")(options "")(descr ""))
 )
