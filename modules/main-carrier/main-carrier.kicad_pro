@@ -874,7 +874,8 @@
   "text_variables": {
     "project_creator": "Intergalaktik d.o.o.",
     "project_license": "CERN-OHL-S v2",
-    "project_name": "Template",
+    "project_name": "Megaphone modular baseboard",
+    "project_owner": " Paul Gardner-Stephen ",
     "project_version": "v1.0",
     "project_year": "2025."
   }
