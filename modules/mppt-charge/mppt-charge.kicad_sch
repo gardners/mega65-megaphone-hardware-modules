@@ -8668,6 +8668,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 196.85 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
+			(at 196.85 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d82b6c8c-41d8-4eb8-b872-3dd4d95dc252")
 		)
@@ -8728,6 +8746,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 132.08 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" " 621-AP63203QWU-7 "
+			(at 132.08 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" "https://hr.mouser.com/ProductDetail/Diodes-Incorporated/AP63203QWU-7?qs=doiCPypUmgGUCz8AKm90uw%3D%3D"
 			(at 132.08 39.37 0)
 			(effects
 				(font
@@ -8882,6 +8918,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 82.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
+			(at 82.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6976bec7-50ed-4e33-98f0-15f43f17eb40")
 		)
@@ -8942,6 +8996,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 127 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 127 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
+			(at 127 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9294,6 +9366,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" " 583-BAT54C "
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" "https://hr.mouser.com/ProductDetail/Rectron/BAT54C?qs=7pEAo90IqNFr3N7U%252BI9%2FzQ%3D%3D"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0cdbd10-c56f-4de8-aaf1-99c536e6e025")
 		)
@@ -9356,6 +9446,24 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 48.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 48.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
 			(at 48.26 133.35 0)
 			(effects
 				(font
@@ -9427,6 +9535,24 @@
 			)
 		)
 		(property "Description" "Microcontroller module with ESP32 MCU"
+			(at 222.25 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "485-4172"
+			(at 222.25 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" "https://hr.mouser.com/ProductDetail/Adafruit/4172?qs=unwgFEO1A6sb1wWSVGoPyA%3D%3D"
 			(at 222.25 49.53 0)
 			(effects
 				(font
@@ -9582,6 +9708,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 74.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
+			(at 74.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d93fe210-c998-42b0-bbd0-95421822d373")
 		)
@@ -9644,6 +9788,24 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 186.69 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 186.69 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
 			(at 186.69 146.05 0)
 			(effects
 				(font
@@ -9721,6 +9883,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 181.61 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
+			(at 181.61 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b2ef75b-2004-446b-81ba-fdd8b8463b22")
 		)
@@ -9783,6 +9963,24 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 43.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 43.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
 			(at 43.18 107.95 0)
 			(effects
 				(font
@@ -9984,6 +10182,24 @@
 		)
 		(property "Description" "±5A Bidirectional Hall-Effect Current Sensor, +5.0V supply, 185mV/A, SOIC-8"
 			(at 191.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "250-71240LLCBTR010B3"
+			(at 191.77 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" "https://hr.mouser.com/ProductDetail/Allegro-MicroSystems/ACS71240LLCBTR-010B3?qs=pUKx8fyJudD3HkFab6KK7w%3D%3D"
+			(at 191.77 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10275,6 +10491,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 167.64 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
+			(at 167.64 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d420c5d4-c8da-483b-b21d-6d8f423eaccc")
 		)
@@ -10339,6 +10573,24 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 69.85 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "637-2N7002"
+			(at 69.85 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" "https://hr.mouser.com/ProductDetail/Diotec-Semiconductor/2N7002?qs=OlC7AqGiEDmcCpiykpS%252BnA%3D%3D"
 			(at 69.85 129.54 0)
 			(effects
 				(font
@@ -10449,7 +10701,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "130"
 			(at 69.596 151.892 90)
 			(effects
 				(font
@@ -10478,6 +10730,24 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 67.31 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 67.31 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
+			(at 67.31 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10547,6 +10817,24 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 34.29 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 34.29 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
 			(at 34.29 74.93 0)
 			(effects
 				(font
@@ -10690,6 +10978,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 158.75 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
+			(at 158.75 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4beac0b9-f2c3-4587-885d-597bf6cffc86")
 		)
@@ -10752,6 +11058,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 135.89 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 135.89 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
 			(at 135.89 115.57 0)
 			(effects
 				(font
@@ -10894,6 +11218,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 74.93 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
+			(at 74.93 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6021f2b2-3515-49d5-9c54-1f0fe0a03fc1")
 		)
@@ -10916,7 +11258,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6484ed1b-6faa-45fd-8f5d-4ed166f756d3")
 		(property "Reference" "JP1"
@@ -10954,6 +11296,24 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 91.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 91.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
 			(at 91.44 82.55 0)
 			(effects
 				(font
@@ -11024,6 +11384,24 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 59.69 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 59.69 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
 			(at 59.69 167.64 0)
 			(effects
 				(font
@@ -11167,6 +11545,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 196.85 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
+			(at 196.85 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8deb4908-0c4e-4764-b9a4-778047fc6535")
 		)
@@ -11236,6 +11632,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 171.45 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
+			(at 171.45 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36e16d09-22d5-4662-9372-602bcd816125")
 		)
@@ -11258,7 +11672,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6cfb912a-2ecc-45f3-a1cc-0ff3f73a8176")
 		(property "Reference" "M1"
@@ -11305,6 +11719,24 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 255.27 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 255.27 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
 			(at 255.27 130.81 0)
 			(effects
 				(font
@@ -11567,6 +11999,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" " 621-PDS1040-13 "
+			(at 165.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" "https://hr.mouser.com/ProductDetail/621-PDS1040-13"
+			(at 165.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d4d964c-004c-4af7-b9a5-5d13b10b9b59")
 		)
@@ -11628,6 +12078,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 181.61 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 181.61 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
 			(at 181.61 128.27 0)
 			(effects
 				(font
@@ -11706,6 +12174,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 62.23 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
+			(at 62.23 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8259abed-9353-4d16-80da-4d31ae6fdf42")
 		)
@@ -11768,6 +12254,24 @@
 			)
 		)
 		(property "Description" "Dual NMOS transistor, 8 pin package"
+			(at 149.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" " 781-SI7272DP-GE3 "
+			(at 149.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" "https://hr.mouser.com/ProductDetail/Vishay-Semiconductors/SI7272DP-T1-GE3?qs=%252BPu8jn5UVnF7mZBPQ8%252B1gQ%3D%3D"
 			(at 149.86 104.14 0)
 			(effects
 				(font
@@ -11994,6 +12498,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "250-71240LLCBTR010B3"
+			(at 48.26 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" "https://hr.mouser.com/ProductDetail/Allegro-MicroSystems/ACS71240LLCBTR-010B3?qs=pUKx8fyJudD3HkFab6KK7w%3D%3D"
+			(at 48.26 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "5e0948ef-2959-4ee7-807b-ed84bba6d8d8")
 		)
@@ -12085,6 +12607,24 @@
 				(font
 					(size 0.508 0.508)
 				)
+			)
+		)
+		(property "Mouser" ""
+			(at 121.92 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
+			(at 121.92 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12222,6 +12762,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" " 781-SI7272DP-GE3 "
+			(at 149.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" "https://hr.mouser.com/ProductDetail/Vishay-Semiconductors/SI7272DP-T1-GE3?qs=%252BPu8jn5UVnF7mZBPQ8%252B1gQ%3D%3D"
+			(at 149.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "271e5ba4-dd4f-4c21-b12c-e7733b344ad4")
 		)
@@ -12273,7 +12831,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "130"
 			(at 69.342 145.542 90)
 			(effects
 				(font
@@ -12302,6 +12860,24 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 67.31 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 67.31 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
+			(at 67.31 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12377,6 +12953,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "70-IHLM2525CZER100M0"
+			(at 157.48 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" "https://hr.mouser.com/ProductDetail/Vishay-Dale/IHLM2525CZER100M01?qs=hedqrRvIYoAmgyQ5vdiZxA%3D%3D"
+			(at 157.48 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "15a9e1e0-a6f3-4aaa-80e2-13868f861814")
 		)
@@ -12410,7 +13004,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "BQ24650"
 			(at 104.14 107.95 0)
 			(effects
 				(font
@@ -12437,6 +13031,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 104.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "595-BQ24650RVAR"
+			(at 104.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" "https://hr.mouser.com/ProductDetail/Texas-Instruments/BQ24650RVAR?qs=0zjllh%252Bnl7YoFsOK3aOUFA%3D%3D"
 			(at 104.14 129.54 0)
 			(effects
 				(font
@@ -12551,6 +13163,24 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 72.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 72.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
 			(at 72.39 111.76 0)
 			(effects
 				(font
@@ -12823,6 +13453,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 114.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
+			(at 114.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1c56f8b-da47-4b87-8faf-e6dd505651f4")
 		)
@@ -12910,7 +13558,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a9528db3-930b-4dd6-9915-ad6af10a5e9d")
 		(property "Reference" "JP2"
@@ -12948,6 +13596,24 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 91.44 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 91.44 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
 			(at 91.44 90.17 0)
 			(effects
 				(font
@@ -13351,6 +14017,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 135.89 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
+			(at 135.89 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "13390e06-d973-40fe-a20c-ca32e82ceaf7")
 		)
@@ -13419,6 +14103,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "755-PMR18EZPFU10L0"
+			(at 167.64 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" "https://hr.mouser.com/ProductDetail/ROHM-Semiconductor/PMR18EZPFU10L0?qs=oBjDkOCjPF1K0ZXDwp9fHA%3D%3D"
+			(at 167.64 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d7ba7800-f024-4819-9e7b-dbff1bb8dc22")
 		)
@@ -13480,6 +14182,24 @@
 			)
 		)
 		(property "Description" "dual schottky barrier diode, common cathode"
+			(at 128.27 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" " 583-BAT54C "
+			(at 128.27 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" "https://hr.mouser.com/ProductDetail/Rectron/BAT54C?qs=7pEAo90IqNFr3N7U%252BI9%2FzQ%3D%3D"
 			(at 128.27 87.63 0)
 			(effects
 				(font
@@ -13616,6 +14336,24 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
+			(at 107.95 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 107.95 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
 			(at 107.95 158.75 0)
 			(effects
 				(font
@@ -13822,6 +14560,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 107.95 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
+			(at 107.95 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e3a4d9a3-d760-4a9c-b9e5-a648cf6021b4")
 		)
@@ -13957,6 +14713,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 177.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
+			(at 177.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f7457b74-27fb-453a-93f3-900fd4e261eb")
 		)
@@ -14019,6 +14793,24 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 59.69 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 59.69 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
 			(at 59.69 160.02 0)
 			(effects
 				(font
@@ -14160,6 +14952,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "70-IFSC1515AHER4R7M0"
+			(at 156.21 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" "https://hr.mouser.com/ProductDetail/Vishay-Dale/IFSC1515AHER4R7M01?qs=InciI0EUQ9bFD1zWABQODQ%3D%3D"
+			(at 156.21 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ae111e8-2388-46ec-8349-02c9fa543f20")
 		)
@@ -14294,6 +15104,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 22.86 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
+			(at 22.86 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d893d1de-52bd-4a14-9bec-21ffb7b402d5")
 		)
@@ -14354,6 +15182,24 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
+			(at 107.95 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 107.95 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
 			(at 107.95 161.29 0)
 			(effects
 				(font
@@ -14425,6 +15271,24 @@
 			)
 		)
 		(property "Description" "Low-Cost 128-Step Volatile I2C Digital Potentiometer, SC-70-6"
+			(at 35.56 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "579-MCP4018T103ELTY"
+			(at 35.56 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" "https://hr.mouser.com/ProductDetail/579-MCP4018T103ELTY"
 			(at 35.56 132.08 0)
 			(effects
 				(font
@@ -14507,6 +15371,24 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 62.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-CRCW25122R00FKTG"
+			(at 62.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" "https://hr.mouser.com/ProductDetail/Vishay/CRCW25122R00FKTG?qs=sGAEpiMZZMtlubZbdhIBIG7NL9y0FcC4f8P4mdWYvzw%3D"
 			(at 62.23 102.87 0)
 			(effects
 				(font
@@ -14650,6 +15532,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" " 621-PDS1040-13 "
+			(at 176.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" "https://hr.mouser.com/ProductDetail/621-PDS1040-13"
+			(at 176.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9d330f0-47f9-4e4a-ad78-02c8a97d8c7a")
 		)
@@ -14777,6 +15677,24 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 186.69 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 186.69 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
 			(at 186.69 153.67 0)
 			(effects
 				(font
@@ -14919,6 +15837,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 43.18 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
+			(at 43.18 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "76ed5b7c-0151-4086-833c-6407ee62313a")
 		)
@@ -14989,6 +15925,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 151.13 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
+			(at 151.13 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4cfb0491-2baf-428d-af67-67707542fb18")
 		)
@@ -15048,6 +16002,24 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
+			(at 107.95 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 107.95 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" ""
 			(at 107.95 153.67 0)
 			(effects
 				(font

@@ -4,4 +4,5 @@
   (lib (name "SDR0403-4R7ML")(type "KiCad")(uri "${KIPRJMOD}/modules/lcd-panel/SDR0403-4R7ML.kicad_sym")(options "")(descr ""))
   (lib (name "PCA9535DW")(type "KiCad")(uri "/home/goran/projects/mega65-megaphone-hardware-modules-fork/lib/PCA9535DW/KiCad/PCA9535DW.kicad_sym")(options "")(descr ""))
   (lib (name "MegaCastle")(type "KiCad")(uri "${KIPRJMOD}/MegaCastle.kicad_sym")(options "")(descr ""))
+  (lib (name "main-carrier-altium-import")(type "KiCad")(uri "${KIPRJMOD}/main-carrier-altium-import.kicad_sym")(options "")(descr ""))
 )
